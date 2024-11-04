@@ -1,7 +1,7 @@
 let websocket;
 let reconnectInterval = 5000;
 const notification = document.getElementById("notification"); let connected;
-let onlineserver = 'https://tttcast-server.onrender.com';
+let onlineserver = 'https://tttcast-server-c3.onrender.com';
 let localhost = 'ws://localhost:8000';
 let currentSong;
 let ujdal = false;

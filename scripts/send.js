@@ -1,6 +1,6 @@
 let websocket;
 let reconnectInterval = 5000;
-let onlineserver = 'https://tttcast-server.onrender.com';
+let onlineserver = 'https://tttcast-server-c3.onrender.com';
 let localhost = 'ws://localhost:8000';
 let Nsheet = 0;
 
