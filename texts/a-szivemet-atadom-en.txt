@@ -1,0 +1,23 @@
+#A szívemet átadom én
+C|78|3/4
+V1 V2
+
+[Verse1]
+  C        G/b    F/a C/g
+A szívemet átadom én
+  F              C/e     Dm7    Gsus G
+Ó nézd, leteszek mindent lábad elé
+   C        G/b         Bb        F/a
+Mi nélküled benne volt, kár és szemét
+Fm/ab C/g      Dm7/g G   C
+Uram, szívemet áta___dom én
+
+[Verse2]
+  C        G/b    F/a C/g
+A szívemet átadom én
+  F              C/e    Dm7    Gsus G
+Ó nézd, könyörög lelkem új életért
+   C         G/b       Bb     F/a
+És elhiszem, üdvömért, véred elég
+Fm/ab C/g      Dm7/g G   C
+Uram, szívemet áta___dom én

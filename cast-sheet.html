@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="hu">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta property="og:image" content="./assets/opengarph/opengraph-small.png">
+    <title>Cast (Sheet) - BETA</title>
+    <link rel="shortcut icon" href="./assets/logos/ttt.svg" type="image/x-icon">
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="./styles/cast-sheet.css">
+</head>
+
+<body>
+    <div id="notification">
+        Connecting
+    </div>
+    <header>
+        <h1 id="dalcim">Dalcím</h1>
+        <h2 id="adatok">
+            <div class="button-container" id="container-key">
+                <button href="" id="+" class="keychange">
+                    <img src="./assets/icons/arrow-up.svg" id="arrow-up" style="display: none;">
+                </button>
+                <button href="" id="key" class="adatok">-</button>
+                <button href="" id="-" class="keychange">
+                    <img src="./assets/icons/arrow-down.svg" id="arrow-down" style="display: none;">
+                </button>
+            </div>
+            |
+            <div class="button-container">
+                <button href="" id="bpm" class="adatok">- Bpm</button>
+            </div>
+            |
+            <div class="button-container">
+                <button href="" id="time_signature" class="adatok">-/-</button>
+            </div>
+        </h2>
+        <hr>
+    </header>
+    <div class="header-placeholder"></div>
+
+    <div id="container-kotta">
+        <div id="kotta"></div>
+    </div>
+
+    <div id="foot">
+        <div class="logo">
+            <h2 class="left">TimeToWorship</h2>
+            <img src="./assets/logos/ttt.svg" alt="TTT logo">
+            <h2 class="right">TTT - Dicsicsopi</h2>
+        </div>
+        <div class="felirat">
+            BudaBible® | TimeToTalk worship group - v1
+        </div>
+    </div>
+
+    <script src="./scripts/SheetReader.js"></script>
+    <script src="./scripts/cast-sheet.js"></script>
+    <script src="./styles/cim-size.js"></script>
+    <script src="./styles/header-size.js"></script>
+    <script src="./styles/hr-size.js"></script>
+    <script src="./scripts/receive.js"></script>
+    <script src="./scripts/elemek.js"></script>
+    <script src="./styles/sheet-contentsize.js"></script>
+</body>
+
+</html>

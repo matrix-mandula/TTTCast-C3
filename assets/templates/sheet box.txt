@@ -1,0 +1,14 @@
+<a href="">
+    <div class="kotta">
+        <div class="img-placeholder"></div>
+        <div class="detail-container">
+            <div class="details">
+                <h3>Dalcím1</h3>
+                <h4>- | - Bpm - | -/-</h4>
+            </div>
+            <button class="options small-button">
+                <img src="./assets/icons/options.svg" alt="options">
+            </button>
+        </div>
+    </div>
+</a>

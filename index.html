@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TTTCast - leírás</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        body {
+            margin: 20px;
+        }
+
+        h1 {
+            text-align: center;
+            font-size: 64px;
+            margin-bottom: 25px;
+        }
+
+        li {
+            margin-left: 36px;
+        }
+
+        div {
+            display: flex;
+            width: max-content;
+            background-color: black;
+            color: white;
+            padding: 10px;
+            border-radius: 10px;
+            margin-left: auto;
+            margin-right: auto;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Leírás</h1>
+    <p>
+        A TTTCast egy TimeToTalk (TTT) nevű ifjúsági közösség részére készült, amely nagy segítséget nyújt a TTT egyik
+        alap
+        programpontjához, a közös énekléshez. Ilyenkor a résztvevők kivetítve látják a dalszöveget, a zenészek pedig
+        tableten, ezzel szinkronban nézik a kottát (dalszöveg+akkordok). A program három nagyobb problémára nyújt
+        megoldást:
+    </p>
+    <ol>
+        <li>
+            A kivetített szöveg gyakran nincs szinkronban az énekkel, ugyanis a zenék felépítését általában szabadon
+            lehet
+            változtatni (refrén, ismétlések), és ezt nehéz szinkronba hozni a vetítéssel, azonban a program ezt könnyen
+            lehetővé
+            teszi.
+        </li>
+        <li>
+            A daloknak nem csak a felépítése lehet színes, hanem a hangneme is. A papíralapú kottákkal szemben viszont a
+            programmal egy gombnyomással lehet hangnemet váltani (transzponálni), az újabb és újabb kották nyomtatása
+            helyett.
+        </li>
+        <li>
+            A legtöbb kotta viszont egyszerű, rögzített szélességű betűtípussal készül, ugyanis nehéz garantálni az
+            akkordok
+            pontos helyét a szöveghez képest. A TTTCast algoritmusával viszont bármilyen betűtípussal készíthetünk
+            kottát,
+            ugyanis az akkordok helyét nem a space-ek biztosítják;) Emellett az akkordok formázása is átláthatóbb és
+            esztétikusabb megjelenést kölcsönöz a kottának.
+        </li>
+    </ol>
+    <p>
+        A TTTCast egy HTML kódolású weboldal, amely JavaScript programmal kiegészítve működik, illetve a weboldalak
+        közti
+        kommunikációt egy JavaScript kóddal rendelkező, Node.js-el kiegészített szerver biztosítja. (Viszont sajnos
+        mivel
+        jelenleg ez egy ingyenes szerveren fut, hosszabb idejű inaktivitás után takarékos üzemmódba lép, és így akár 50
+        mp-ig is eltarthat az első indítás, ami egy esemény elindításával történik meg)
+    </p>
+    <p>
+        Használat előtt érdemes elolvasni a leírást a <img src="assets/icons/nav/sugo.svg" alt="súgó" height="20px">
+        gombra kattintva
+    </p>
+
+    <div>
+        <a style="color: white;" href="home.html">Ugrás az oldalra</a>
+    </div>
+
+</body>
+
+</html>

@@ -1,0 +1,242 @@
+{
+    "adatok": {
+        "cim": "Oceans",
+        "key": "Bm",
+        "bpm": "64",
+        "time_signature": "4/4"
+    },
+    "dalszoveg": [
+        "Bm              A/c#  D",
+        "         A           G",
+        "Bm         A/c#   D",
+        "         A             G",
+        "[Chorus]",
+        "Nagy Neved hívom én,",
+        "És felnézek a vizek fölé",
+        "Ott látlak én, a lelkem Benned megpihen",
+        "Enyém vagy és én Tied",
+        "  Bm           A/c#    D",
+        "         A             G",
+        "   Bm          A/c#   D",
+        "        A                 G",
+        "[Bridge]",
+        "Lélek, add, hogy Benned teljesen megbízzak",
+        "A vízen bátran Veled járjak és bárhová hívsz, menjek",
+        "Vigyél tovább, mint a lábam tudna menni",
+        "Taníts teljes hittel járni, jelenlétedben élni"
+    ],
+    "kotta": [
+        [
+            [
+                "B",
+                "[Verse1]"
+            ],
+            [
+                "m    ",
+                "Verse1]"
+            ],
+            [
+                " ",
+                "1]"
+            ],
+            [
+                "         A/c#  D",
+                "]"
+            ]
+        ],
+        [
+            [
+                "  ",
+                "Meghívtál,"
+            ],
+            [
+                "A G  ",
+                ","
+            ]
+        ],
+        [
+            [
+                "Bm A/c# D  ",
+                "Hol"
+            ]
+        ],
+        [
+            [
+                "  A ",
+                "Ebben"
+            ],
+            [
+                "  ",
+                "Téged,"
+            ],
+            [
+                "G",
+                ","
+            ],
+            [
+                "G",
+                ","
+            ]
+        ],
+        [
+            [
+                "[Chorus]  ",
+                "A"
+            ]
+        ],
+        [
+            [
+                "Nagy Ne",
+                "G"
+            ],
+            [
+                "ved hívom ",
+                "D"
+            ],
+            [
+                "én, ",
+                "A"
+            ]
+        ],
+        [
+            [
+                "És felné",
+                " "
+            ],
+            [
+                "zek a vizek fö",
+                "D"
+            ],
+            [
+                "lé",
+                "A"
+            ]
+        ],
+        [
+            [
+                "Ott látlak ",
+                " "
+            ],
+            [
+                "én, a lelkem ",
+                "G"
+            ],
+            [
+                "Benned megpi",
+                "D"
+            ],
+            [
+                "hen",
+                "A"
+            ]
+        ],
+        [
+            [
+                "Enyém ",
+                " "
+            ],
+            [
+                "vagy és ",
+                "G"
+            ],
+            [
+                "én Ti",
+                "A"
+            ],
+            [
+                "ed ",
+                "Bm"
+            ]
+        ],
+        [
+            [
+                " ",
+                "[Verse2]"
+            ],
+            [
+                " Bm ",
+                "Verse2]"
+            ],
+            [
+                " ",
+                "2]"
+            ],
+            [
+                "  A/c# D",
+                "]"
+            ]
+        ],
+        [
+            [
+                "  A G  ",
+                "A"
+            ]
+        ],
+        [
+            [
+                "  Bm A/c# D  ",
+                "Mely"
+            ]
+        ],
+        [
+            [
+                "  A G  ",
+                "Ha"
+            ]
+        ],
+        [
+            [
+                "[Bridge]  ",
+                "Te"
+            ]
+        ],
+        [
+            [
+                "Lélek, add, hogy Benned ",
+                "Bm"
+            ],
+            [
+                "teljesen megbízzak",
+                "G"
+            ]
+        ],
+        [
+            [
+                "A vízen ",
+                " "
+            ],
+            [
+                "bátran Veled járjak és ",
+                "D"
+            ],
+            [
+                "bárhová hívsz, menjek",
+                "A"
+            ]
+        ],
+        [
+            [
+                "Vigyél tovább, mint a ",
+                "Bm"
+            ],
+            [
+                "lábam tudna menni",
+                "G"
+            ]
+        ],
+        [
+            [
+                "Taníts ",
+                " "
+            ],
+            [
+                "teljes hittel járni, je",
+                "D"
+            ],
+            [
+                "lenlétedben élni",
+                "A"
+            ]
+        ]
+    ]
+}

@@ -1,0 +1,103 @@
+/* @import url(./assets/fonts/CloudSoft-Bold\ 700.ttf); */
+/* @import url(./assets/fonts/CloudSoft-Light\ 300.otf); */
+/* @import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap'); */
+
+@font-face {
+    font-family: "Cloud Soft";
+    src: url(./assets/fonts/CloudSoft-Bold\ 700.otf);
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: "Cloud Soft";
+    src: url(./assets/fonts/CloudSoft-Light\ 300.otf);
+    font-weight: 100;
+}
+
+:root {
+    /* colors */
+    --background-color: white;
+    --main-color: black;
+    --second-color: white;
+    --last-color: rgba(0, 0, 0, 0.35);
+    --border1: rgba(43, 59, 74, 0.3);
+    --selected: rgba(57, 76, 96, 0.15);
+    --hover1: rgba(13, 18, 22, 0.05);
+    --button2: rgba(255, 255, 255, 0.07);
+    --title-main: #7D2AE7;
+    --textbox: rgba(217, 217, 217, 0.5);
+    --placeholder: #d9d9d9;
+    /* shadow */
+    --shadow-scroll: 0 2px 4px -1px rgba(57, 76, 96, 0.25);
+    --shadow-button1: 0 0 20px 0 rgba(0, 0, 0, 0.35);
+    --shadow-button2: 0 0 20px 0 rgba(91, 91, 91, 0.35);
+    --shadow-items: 0 2px 4px 2px rgba(57, 76, 96, 0.25);
+    --shadow-popupwindow: 0 2px 200px 100px rgba(0, 0, 0, 0.3);
+    /* fonts */
+    --font-family: "Cloud Soft", "Outfit", sans-serif;
+}
+
+
+/* BASIC */
+* {
+    font-family: var(--font-family);
+    /* font-weight: normal; */
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    color: var(--main-color);
+    text-decoration: none;
+}
+
+input {
+    all: unset
+}
+
+button {
+    background-color: transparent;
+    border: none;
+}
+
+.main-button {
+    background-color: var(--main-color);
+    color: var(--second-color)
+}
+
+.container-button {
+    display: flex;
+    height: 40px;
+}
+
+.big-button {
+    height: 40px;
+    border-radius: 8px;
+    font-size: 16px;
+    text-align: center;
+    padding: 9px 16px;
+    margin: auto;
+}
+
+.big-button:hover {
+    box-shadow: var(--shadow-button1);
+    transition: 0.2s;
+}
+
+.small-button {
+    height: 24px;
+    width: 24px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.small-button:hover {
+    background-color: var(--selected);
+    border-radius: 4px;
+    transition: 0.2s;
+}
+
+.icon {
+    width: 18px;
+}

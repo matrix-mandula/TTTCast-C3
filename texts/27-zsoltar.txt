@@ -1,0 +1,80 @@
+#27. zsoltár
+C|85|4/4
+I V1 C1 V2 C1 C1 B B C1 C2 C2
+
+[Intro]
+C C Am F
+
+[Verse1]
+C                F
+ Világosságom és segítségem
+         Am             D
+Te vagy, Uram, kitől félnék?
+C            F
+ Életem ereje
+         Am                G
+Csak Te vagy, miért rettegnék?
+F               G
+Megóvsz engem a veszedelemben,
+F/a                  G/b
+Elrejtesz szárnyaid alá
+
+[Verse2]
+C              F
+ Felemelted fejem
+             Am                 D
+S mikor hívtalak, Te meghallgattál
+C                    F
+ Sziklára állítottál, minden bajból kimentettél,
+Am                  G
+ Ezért szívem Téged áld
+F             G
+Erős karoddal vezetsz,
+F/a                   G/b
+Mindenben győztessé teszel!
+
+[Chorus1]
+C
+ Csak egyetlen vágyam van,
+G
+ Hogy lakhassam házadban
+Am          F
+ Életem idején
+C
+ Lábadnál hadd időzzek el,
+G/b
+ És gyönyörködjek Benned
+Am              F       G
+ Amíg csak élek én (örökké)
+
+[Chorus2]
+D
+ Csak egyetlen vágyam van,
+A
+ Hogy lakhassam házadban
+Bm          G
+ Életem idején
+D
+ Lábadnál hadd időzzek el,
+A/c#
+ És gyönyörködjek Benned
+Bm              G       A
+ Amíg csak élek én (örökké)
+
+[Bridge]
+Am
+ Kezem kitárom Feléd
+F
+ Mindenem a Tiéd
+C
+ Szívemből bízom Benned
+G
+ Megtartod életemet
+Am
+ Hűséged pajzsom, s páncélom
+F
+ Te vigyázol rám
+C
+ Ha ellenség támadna meg,
+G                    Am
+ Tudom, Te mellettem állsz
