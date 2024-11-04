@@ -1,9 +1,6 @@
 #27. zsoltár
 C|85|4/4
-I V1 C1 V2 C1 C1 B B C1 C2 C2
-
-[Intro]
-C C Am F
+V1 C1 V2 C1 C1 B B C1 C2 C2
 
 [Verse1]
 C                F

@@ -1,9 +1,6 @@
 Táncol a menny
 Dm|138|4/4
-I V1 Int V2 C V1 V2 C C
-
-[Intro]
-Dm G Bb A
+V1 V2 C V1 V2 C C
 
 [Verse1]
 Dm                       G
@@ -14,9 +11,6 @@ Dm                       G
 Kinyújtotta karját, szelíden felemelt,
 Bb                     A
 Amíg élek azt a percet nem feledem!
-
-[Interlude]
-Dm G Bb a
 
 [Verse2]
 Dm                       G
