@@ -13,17 +13,17 @@ function buttonClickStyle(button) {
     let fontSize2 = fontSize * 0.95;
     let padding2_1 = padding_1 * 0.95;
     let padding2_2 = padding_2 * 0.95;
-    let margin2_1 = height * 0.05;
-    let margin2_2 = width * 0.05;
+    let margin2_1 = height * 0.025;
+    let margin2_2 = width * 0.025;
 
     button.addEventListener("mousedown", () => {
         button.style.width = width2 + "px";
         button.style.height = height2 + "px";
         button.style.fontSize = fontSize2 + "px";
         button.style.padding = padding2_1 + "px " + padding2_2 + "px";
+        button.style.margin = margin2_1 + "px " + margin2_2 + "px";
     });
     button.addEventListener("mouseup", () => {
-
         button.removeAttribute("style")
     });
     button.addEventListener("mouseleave", () => {

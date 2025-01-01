@@ -104,7 +104,8 @@ header .small-buttons :last-child {
 
 #esemeny-inditasa {
     display: flex;
-    min-width: 160px;
+    /* min-width: 160px; */
+    white-space: nowrap;
 }
 
 /* NAVIGATION */
