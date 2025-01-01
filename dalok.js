@@ -4,13 +4,5 @@ let dalok = [
     'itt-a-szivem',
     'oceans',
     'tancol-a-menny',
-    'demo',
-    'demo',
-    'demo',
-    'demo',
-    'demo',
-    'demo',
-    'demo',
-    'demo',
-    'demo'
+    'tied-a-dicsoseg'
 ]
