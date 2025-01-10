@@ -171,8 +171,8 @@ let oldalak = [];
 if (songP != null) {
     construct([songP]).then(() => {
         document.addEventListener("keydown", (event) => {
-            if (event.key === "ArrowRight") { navRight() }
-            else if (event.key === "ArrowLeft") { navLeft() }
+            if (event.key === "ArrowRight" && !reserved) { navRight() }
+            else if (event.key === "ArrowLeft" && !reserved) { navLeft() }
         });
 
     });
@@ -182,8 +182,8 @@ else if (esemeny != null) {
         let dalok = events[esemeny].dalok;
         construct(dalok).then(() => {
             document.addEventListener("keydown", (event) => {
-                if (event.key === "ArrowRight") { navRight() }
-                else if (event.key === "ArrowLeft") { navLeft() }
+                if (event.key === "ArrowRight" && !reserved) { navRight() }
+                else if (event.key === "ArrowLeft" && !reserved) { navLeft() }
             });
         })
     }

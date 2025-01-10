@@ -3,6 +3,7 @@ let reconnectInterval = 5000;
 let onlineserver = 'https://tttcast-server-c3.onrender.com';
 let localhost = 'ws://localhost:8000';
 let Nsheet = 0;
+let reserved = false;
 
 function connectWebSocket() {
 
@@ -22,8 +23,21 @@ function connectWebSocket() {
     // ÜZENET FOGADÁSA
     websocket.onmessage = function (message) {
         message = JSON.parse(message.data)
+
+        const popupwindow = document.getElementById("popupwindow")
+        if (message.type == 'reserved') {
+            popupwindow.removeAttribute("style");
+            reserved = true;
+
+        }
+        else if (message.type == 'free') {
+            popupwindow.style.display = 'none';
+            sendData(tagI)
+            reserved = false;
+        }
+
         //notification
-        if (message.type == 'newSheet') {
+        else if (message.type == 'newSheet') {
             const notification = document.getElementById("notification");
             notification.style.animation = 'connected 2s forwards';
             setTimeout(() => { notification.removeAttribute('style'); }, 2500)
