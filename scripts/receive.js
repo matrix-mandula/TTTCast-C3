@@ -37,15 +37,17 @@ function connectWebSocket() {
             notification.style.marginTop = "20px"
             connected = false;
         };
-        if (currentSong != data.song) { ujdal = true };
-        currentSong = data.song;
-        construct(currentSong).then(() => {
-            resizeDalcim();
-            resizeHeader();
-            resizeHR();
-            akkordDistance()
-        })
-        currentSong = data.song;
+        if (currentSong != data.song) {
+            ujdal = true
+            currentSong = data.song;
+            construct(currentSong).then(() => {
+                resizeDalcim();
+                resizeHeader();
+                resizeHR();
+                akkordDistance()
+            })
+            gotoCurrentTag(1)
+        };
         gotoCurrentTag(parseInt(data.tag));
     };
 
