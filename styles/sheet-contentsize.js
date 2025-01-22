@@ -14,25 +14,25 @@ window.addEventListener("resize", () => {
     if (window.innerWidth < 550) { spacewidth = 5.59 }
 })
 
-function HV() {
-    const windowH = document.documentElement.clientHeight;
-    const windowW = document.documentElement.clientWidth;
-    if (windowH < windowW) {
-        const kottaC = document.getElementById("container-kotta")
-        const kotta = document.getElementById("kotta");
+// function HV() {
+//     const windowH = document.documentElement.clientHeight;
+//     const windowW = document.documentElement.clientWidth;
+//     if (windowH < windowW) {
+//         const kottaC = document.getElementById("container-kotta")
+//         const kotta = document.getElementById("kotta");
 
-        kotta.classList.add("kotta-vertical");
-        kotta.style.display = 'flex';
-        kotta.style.flexDirection = 'row';
-        kotta.style.marginTop = '0';
+//         kotta.classList.add("kotta-vertical");
+//         kotta.style.display = 'flex';
+//         kotta.style.flexDirection = 'row';
+//         kotta.style.marginTop = '0';
 
-        kottaC.classList.add("container-kotta-vertical");
-        kottaC.style.overflowY = 'hidden';
-        kottaC.style.overflowX = 'scroll';
-    }
-}
+//         kottaC.classList.add("container-kotta-vertical");
+//         kottaC.style.overflowY = 'hidden';
+//         kottaC.style.overflowX = 'scroll';
+//     }
+// }
 
-HV()
+// HV()
 
 /*function widthCheck() {
     const kotta = document.getElementById("kotta");
